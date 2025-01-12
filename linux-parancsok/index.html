@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linuxos parancsok</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/linux.png">
+</head>
+<body>
+    <h1>Linuxos parancsok</h1>
+    <p>Az alábbi táblázat a Linux-ban leggyakrabban használt parancsokat mutatja be.</p>
+    <table>
+        <thead>
+            <tr>
+                <td><b>Parancs</b></td>
+                <td><b>Kapcsolók</b></td>
+                <td><b>Példa használatra</b></td>
+                <td><b>Leírás</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ls</td>
+                <td>-a   -l</td>
+                <td><code>ls -a</code></td>
+                <td>Kilistázza az aktuális mappa tartalmát.</td>
+            </tr>
+            <tr>
+                <td>cd</td>
+                <td></td>
+                <td><code>cd Dokumentumok</code></td>
+                <td>Belépés másik mappába.</td>
+            </tr>
+            <tr>
+                <td>mkdir</td>
+                <td>-p</td>
+                <td><code>mkdir "Új mappa"</code></td>
+                <td>Új mappa létrehozása.</td>
+            </tr>
+            <tr>
+                <td>rm</td>
+                <td>-r</td>
+                <td><code>rm valami.txt</code></td>
+                <td>Fájl törlése.</td>
+            </tr>
+            <tr>
+                <td>rmdir</td>
+                <td></td>
+                <td><code>rmdir "Új mappa"</code></td>
+                <td>Mappa törlése.</td>
+            </tr>
+            <tr>
+                <td>cat</td>
+                <td></td>
+                <td><code>cat valami.txt</code></td>
+                <td>Fájl tartalmának kiírása.</td>
+            </tr>
+            <tr>
+                <td>pwd</td>
+                <td></td>
+                <td><code>pwd</code></td>
+                <td>Az éppen aktuális mappa kiíratása.</td>
+            </tr>
+            <tr>
+                <td>echo</td>
+                <td></td>
+                <td><code>echo "Szöveg"</code></td>
+                <td>Szöveg kiíratása.</td>
+            </tr>
+            <tr>
+                <td>head</td>
+                <td>-n</td>
+                <td><code>head valami.txt</code></td>
+                <td>A fájl első 10 sorát írja ki.</td>
+            </tr>
+            <tr>
+                <td>tail</td>
+                <td>-n</td>
+                <td><code>tail valami.txt</code></td>
+                <td>A fájl utolsó sorait írja ki.</td>
+            </tr>
+            <tr>
+                <td>wc</td>
+                <td>-c   -w</td>
+                <td><code>wc valami.txt</code></td>
+                <td>A fájlban található betűk, szavak, byteok számát adja vissza.</td>
+            </tr>
+            <tr>
+                <td>tree</td>
+                <td>-L</td>
+                <td><code>tree</code></td>
+                <td>Mappaszerkezet megjelenítése.</td>
+            </tr>
+            <tr>
+                <td>mcedit</td>
+                <td></td>
+                <td><code>mcedit valami.txt</code></td>
+                <td>Fájlszerkesztő.</td>
+            </tr>
+            <tr>
+                <td>wget</td>
+                <td>-q</td>
+                <td><code>wget http://pelda.com</code></td>
+                <td>Fájlok letöltése.</td>
+            </tr>
+            <tr>
+                <td>curl</td>
+                <td>-O</td>
+                <td><code>curl http://pelda.com</code></td>
+                <td>Fájlok letöltése.</td>
+            </tr>
+            <tr>
+                <td>iconv</td>
+                <td>-f   -t</td>
+                <td><code>iconv -f UTF-8 -t ISO-8859-1 valami.txt</code></td>
+                <td>Fájlok konvertálása más karakterkészletre.</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size: 18px">Források:</p>
+    <ul>
+        <li><a href="https://ss64.com/bash/" target="_blank">https://ss64.com/bash/</a></li>
+        <li><a href="http://www.letix.hu/" target="_blank">http://www.letix.hu/</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    color: #28048c;
+    font-size: 40px;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: 
+        2% center/ 16% url("../img/linux.png") no-repeat, 
+        98% center/ 16% url("../img/linux.png") no-repeat, 
+        linear-gradient(to bottom, #add8e6, #87cefa) fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+td {
+    background-color: #f9f9f9;
+    white-space: pre;
+}
+
+tr:hover td {
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+a{
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: green;
+}
+
+code {
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 5px;
+}
