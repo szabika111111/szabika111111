@@ -21,6 +21,7 @@
 - **Szöveges tartalom kezelése:** echo, head, tail, wc
 - **Internetes letöltések:** wget, curl
 - **Kódolás:** iconv
+- [Alap parancsok leírás](./linux-parancsok/index.html)
 
 
 ## MySQL
